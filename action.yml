@@ -16,7 +16,6 @@ inputs:
   commands: 
     description: 'The ssh commands'
     required: true
-    default: 'ls -h'
 runs: 
   using: 'node16'
   main: index.js
